@@ -1,0 +1,159 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/*Шрифты*/
+
+@font-face {
+font-family: 'Futura Condensed Normal';
+    src: url('Futura-Condenced-Normal.eot');
+    src: url('Futura-Condenced-Normal.eot?#iefix') format('embedded-opentype'),
+        url('Futura-Condenced-Normal.woff') format('woff'),
+        url('Futura-Condenced-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'Futura Condensed Extra Bold';
+    src: url('Futura-Condensed-Extra-Bold.eot');
+    src: url('Futura-Condensed-Extra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Futura-Condensed-Extra-Bold.woff') format('woff'),
+        url('Futura-Condensed-Extra-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    /*Оформление*/
+
+body {
+    background-color: rgb(16, 55, 134);
+    background-image: url(images/fon.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    font-family: 'Futura Condensed Normal';
+    font-size: 22px;
+}
+h1, h2, .header-menu a {
+    font-family: 'Futura Condensed Extra Bold';
+}
+p {
+    color: white;
+}
+body a {
+    text-decoration: none;
+}
+.header-menu i {
+    text-align: center;
+    background: #ffa500;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 0px 5px 20px;
+    background-image: -moz-linear-gradient(#fdcf71, #ffa400 50%, #e16800);
+    background-image: -webkit-linear-gradient(#fdcf71, #ffa400 50%, #e16800);
+    background-image: -o-linear-gradient(#fdcf71, #ffa400 50%, #e16800);
+    position: relative;
+    top: 5px;
+}
+.main-menu {
+    margin: 24px 0px 29px 0px;
+}
+.header-menu, .sponsors {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+.logo-block {
+    text-align: center;
+}
+.sponsors img {
+    margin: 0px 72px;
+}
+.header-menu a {
+    color: #002e83;
+    margin: 0px 66px 0px 66px;
+    position: relative;
+    top: -5px;
+}
+.headline-bar {
+    background-color: #ffc000;
+    color: white;
+    text-align: center;
+    margin-bottom: 47px;
+}
+h2 {
+    background-color:#ff0000;
+    color:white;
+}
+.content-list {
+    margin: 0px 454px 0px 460px;
+}
+.agenda-block, .information-block, .contact-block {
+    border-bottom: 2px solid white;
+    border-bottom-width: 100%;
+}
+.event, .contact-block .content-list {
+    display:inline-flex;
+}
+.text-event {
+    padding-left: 69px;
+}
+.city {
+    padding: 12px 24px;
+    position: relative;
+    left: -22px;
+}
+.ticketimg {
+    text-align:left;
+    position:relative;
+    left: -8px;
+    top: 22px;
+}
+.place {
+    margin-top: 47px;
+}
+.contact-block {
+    padding-bottom: 146px;
+}
+.contact-block .content-list {
+    justify-content: space-between;
+}
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+.yellowtext {
+    color:#ffc000;
+}
+.yellowline {
+    background-color: #ffc000;
+    border: none;
+    height: 2px;
+    width:100%;
+}
+.bluebutton {
+    background-color: #11c1ff;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 19px;
+}
+.redbutton {
+    background-color: #ff0000;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 14px 146px 10px 146px;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 17px 388px 17px 27px;
+    margin-bottom: 17px;
+}
+.message {
+    padding-bottom: 87px;
+}
+.footer-block {
+    text-align: center;
+}
